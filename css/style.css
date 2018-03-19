@@ -42,6 +42,49 @@ body a:hover {
 body a:focus {
   outline: none;
 }
+h2 {
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.line {
+  background-color: #e4eafa;
+  height: 1px;
+  display: block;
+  width: 104%;
+  margin-top: 15px;
+}
+h3 {
+  font-size: 1.8rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h4 {
+  font-size: 1.6rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+h5 {
+  font-size: 1.4rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+p {
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #333;
+  line-height: 1.29;
+}
 section#main {
   height: 2000px;
   margin-top: -13px;
@@ -142,6 +185,7 @@ section#main .main-container .first-user {
   background-color: #fff;
 }
 section#main .main-container .first-user h2 {
+  font-size: 1.8rem;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-style: normal;
@@ -253,8 +297,30 @@ section#main .main-container .first-pay .site-btn-green-o {
 }
 section#main .main-container .second-column {
   margin-left: 21px;
-  width: 620px;
-  background-color: yellow;
+  width: 62rem;
+}
+section#main .main-container .refregerator {
+  border: 1px solid #e8edfa;
+  background-color: #fff;
+  height: 30rem;
+}
+section#main .main-container .refregerator h2 {
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: auto;
+  padding-top: 33px;
+  padding-left: 20px;
+}
+section#main .main-container .refregerator h5 {
+  padding-left: 20px;
+}
+section#main .main-container .refregerator p {
+  margin-top: -14px;
+  line-height: 1.43;
+  padding-left: 20px;
 }
 section#main .main-container .third-column {
   margin-left: 21px;
@@ -301,7 +367,7 @@ section#main .main-container .third-column .pos {
     margin: 0 auto;
   }
 }
-html[lang="he"] body {
+html[lang="ru"] body {
   direction: rtl;
 }
 body,
@@ -394,6 +460,12 @@ html[lang="he"] .third-column {
 }
 html[lang="he"] .first-column {
   margin-left: 10px;
+}
+html[lang="he"] .refregerator {
+  padding-right: 20px;
+}
+html[lang="he"] .line {
+  margin-right: -20px;
 }
 .site-btn-green {
   display: -webkit-inline-flex;

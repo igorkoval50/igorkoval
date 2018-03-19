@@ -1,0 +1,97 @@
+/*===============Шрифты=============================== */
+.italic {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.regular {
+ font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.bold {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.semiBold {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+///custom 
+html {
+	overflow-x: hidden; 
+	font-size: 10px;
+}
+body {
+	a {
+		.regular;
+		font-size: 1.8rem;
+		color: #8d8b8b;
+		text-decoration: none;
+		&:hover {
+			color: #333333;
+			text-decoration: none;
+			text-decoration: underline;
+		}
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+////////////SECTION MAIN///////////////
+section#main {
+	margin-top: -13px;
+	background-color: #f5f5f5;
+	.nav {
+		padding-top: 8px;
+		ul {
+			padding: 0;
+		}
+		ul li {
+			list-style-type: none;
+			display: inline-block;
+		}
+		a {
+			padding-left: 10px;
+		}
+		i {
+			padding-left: 5px;
+			font-size: 1.8rem;
+		}
+	}
+	.main-h1 {
+		background-color: red;
+		display: inline-block;
+		width: 1150px;
+		h1 {
+			width: 1150px;
+			margin-top: -7px;
+			color: #5faf00;
+			.semiBold;
+			font-size: 3rem;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import '../css/media.less';
+@import '../css/base.less';

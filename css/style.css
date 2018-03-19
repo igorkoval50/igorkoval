@@ -61,18 +61,81 @@ section#main .nav i {
   font-size: 1.8rem;
 }
 section#main .main-h1 {
-  background-color: red;
   display: inline-block;
-  width: 1150px;
 }
 section#main .main-h1 h1 {
-  width: 1150px;
+  width: 800px;
+  display: inline-block;
   margin-top: -7px;
   color: #5faf00;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 3rem;
+}
+section#main .share {
+  vertical-align: middle;
+  display: inline-block;
+  padding-top: 10px;
+}
+section#main .share button {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: inline-flex;
+  padding: 6px 20px 8px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #5faf00;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19), inset 1px 1px 1px 0 rgba(255, 255, 255, 0.15);
+  transition: all 0.3s;
+  background: #f0a029;
+}
+section#main .share button:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), inset 1px 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+section#main .share button .fa {
+  margin-right: 15px;
+  margin-top: 1px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#main .share button:hover {
+  background: #f2ab41;
+}
+section#main .share span {
+  margin-left: 10px;
+}
+section#main .main-container {
+  width: 106%;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+section#main .main-container .first-column {
+  width: 300px;
+  background-color: red;
+}
+section#main .main-container .second-column {
+  margin-left: 21px;
+  width: 620px;
+  background-color: red;
+}
+section#main .main-container .third-column {
+  margin-left: 21px;
+  height: 250px;
+  width: 300px;
+  background-color: red;
 }
 /*==========  Desktop First Method  ==========*/
 @media (min-width: 0px) and (max-width: 480px) {

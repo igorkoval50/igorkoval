@@ -262,6 +262,120 @@ section#main {
 				padding-left: 20px;
 			}
 		}
+		.slider {
+			border: 1px solid #e8edfa;
+			padding-left: 20px;
+			margin-top: 10px;
+			height: 270px;
+			background-color: #fff;
+			p {
+				display: inline-block;
+				font-size: 14px;
+				.semiBold;
+				color: #333333;
+			}
+			a {
+				cursor: pointer;
+				padding-right: 21px;
+				padding-top: 13px;
+				float: right;
+				font-size: 14px;
+				font-weight: 600;
+				color: #5faf00;
+				&:hover {
+					color:#57ED39;
+				}
+			}
+			.slick {
+				.slick-prev,
+				.slick-next {
+				}
+				.item {
+					outline: none;
+				}
+			}
+		}
+		.candidates {
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 10px;
+			 margin-top: 10px;
+			 border-radius: 5px;
+  			 background-color: #ffffff;
+  			 height: 199px;
+  			 border: 1px solid #e8edfa;
+  			.candidates-inf {
+  			 	p {
+  			 		margin-top: 0px;
+  			 		display: inline-block;
+  			 		font-size: 18px;
+  			 		color: #333;
+  			 	}
+  			 	span {
+  			 		margin-left: -20px;
+  			 	}
+  			 	.site-btn-green {
+  			 		outline:none;
+  			 		display: inline-block;
+  			 		float: right;
+					.site-btn();
+					background: @site-green;
+					&:hover {
+						background: lighten(@site-green, 4%);
+					}
+				}
+  			 }
+  			 .user {
+  			 	margin-top: 10px;
+  			 	position: relative;
+  			 	display: inline-block;
+  			 }
+  			 .add {
+  			 	margin-left: 20px;
+  			 }
+  			 .checkbox-block {
+  			 	position: absolute;
+  			 	z-index: 2;
+  			 	right: -9px;
+  			 	top: 6px;
+  			 }
+  			 .cont {
+  			 	margin-top: 20px;
+  			 	z-index: 1;
+  			 }
+  			 .site-btn-green {
+  			 	border: none;
+  			 }
+  			 .checkbox-block {
+  			 	input[type=checkbox] + label {
+				  display: block;
+				  margin: 0.2em;
+				  cursor: pointer;
+				  padding: 0.2em;
+				}
+
+				input[type=checkbox] {
+				  display: none;
+				}
+				input[type=checkbox] + label:before {
+				  content: "";
+				  border: 2px solid #dedede;
+				  border-radius: 0.2em;
+				  display: inline-block;
+				  width: 20px;
+				  height: 20px;
+				  background-color: #fff;
+				}
+				input[type=checkbox]:checked + label:before {
+				  background-color: #52a700;
+				  border-color: #52a700;
+				  color: #fff;
+				  background-image: url(../img/icon/check.svg);
+				  background-repeat: no-repeat;
+				  background-position: center;
+				}
+  			 }
+		}//candidates
 
 		.third-column {
 			margin-left: 21px;
@@ -298,3 +412,4 @@ section#main {
 
 @import '../css/media.less';
 @import '../css/base.less';
+@import '../css/slick.less';

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*===============Шрифты=============================== */
 .italic {
   font-family: 'Open Sans', sans-serif;
@@ -322,6 +323,140 @@ section#main .main-container .refregerator p {
   line-height: 1.43;
   padding-left: 20px;
 }
+section#main .main-container .slider {
+  border: 1px solid #e8edfa;
+  padding-left: 20px;
+  margin-top: 10px;
+  height: 270px;
+  background-color: #fff;
+}
+section#main .main-container .slider p {
+  display: inline-block;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #333333;
+}
+section#main .main-container .slider a {
+  cursor: pointer;
+  padding-right: 21px;
+  padding-top: 13px;
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5faf00;
+}
+section#main .main-container .slider a:hover {
+  color: #57ED39;
+}
+section#main .main-container .slider .slick .item {
+  outline: none;
+}
+section#main .main-container .candidates {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  height: 199px;
+  border: 1px solid #e8edfa;
+}
+section#main .main-container .candidates .candidates-inf p {
+  margin-top: 0px;
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+}
+section#main .main-container .candidates .candidates-inf span {
+  margin-left: -20px;
+}
+section#main .main-container .candidates .candidates-inf .site-btn-green {
+  outline: none;
+  display: inline-block;
+  float: right;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: inline-flex;
+  padding: 6px 20px 8px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #5faf00;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.19), inset 1px 1px 1px 0 rgba(255, 255, 255, 0.15);
+  transition: all 0.3s;
+  background: #5faf00;
+}
+section#main .main-container .candidates .candidates-inf .site-btn-green:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5), inset 1px 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+section#main .main-container .candidates .candidates-inf .site-btn-green .fa {
+  margin-right: 15px;
+  margin-top: 1px;
+  width: 30px;
+  height: 30px;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section#main .main-container .candidates .candidates-inf .site-btn-green:hover {
+  background: #6ac300;
+}
+section#main .main-container .candidates .user {
+  margin-top: 10px;
+  position: relative;
+  display: inline-block;
+}
+section#main .main-container .candidates .add {
+  margin-left: 20px;
+}
+section#main .main-container .candidates .checkbox-block {
+  position: absolute;
+  z-index: 2;
+  right: -9px;
+  top: 6px;
+}
+section#main .main-container .candidates .cont {
+  margin-top: 20px;
+  z-index: 1;
+}
+section#main .main-container .candidates .site-btn-green {
+  border: none;
+}
+section#main .main-container .candidates .checkbox-block input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+section#main .main-container .candidates .checkbox-block input[type=checkbox] {
+  display: none;
+}
+section#main .main-container .candidates .checkbox-block input[type=checkbox] + label:before {
+  content: "";
+  border: 2px solid #dedede;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+}
+section#main .main-container .candidates .checkbox-block input[type=checkbox]:checked + label:before {
+  background-color: #52a700;
+  border-color: #52a700;
+  color: #fff;
+  background-image: url(../img/icon/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 section#main .main-container .third-column {
   margin-left: 21px;
   width: 30rem;
@@ -367,7 +502,7 @@ section#main .main-container .third-column .pos {
     margin: 0 auto;
   }
 }
-html[lang="ru"] body {
+html[lang="he"] body {
   direction: rtl;
 }
 body,
@@ -454,6 +589,9 @@ html[lang="he"] .share {
 }
 html[lang="he"] .share img {
   margin-left: 5px;
+}
+html[lang="he"] .second-column {
+  margin-left: 10px;
 }
 html[lang="he"] .third-column {
   margin-right: -10px;
@@ -951,4 +1089,194 @@ html[lang="he"] .skill-form-lev2 label input {
 }
 .pagination a:active {
   background: #e9e9e9;
+}
+/*===============Slick Slider=============================== */
+/* Slider */
+.slick-loading .slick-list {
+  background: #ffffff url('ajax-loader.gif') center center no-repeat;
+}
+/* Arrows */
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  width: 20px;
+  height: 30px;
+  position: absolute;
+  top: 45%;
+  z-index: 1;
+  margin-top: -15px;
+  display: block;
+}
+.slick-prev {
+  left: -20px;
+  background: url(../img/icon/arrow-left.svg) no-repeat;
+  background-position: center;
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  border: none;
+}
+.slick-next {
+  right: 0px;
+  background: url(../img/icon/arrow-right.svg) no-repeat;
+  background-position: center;
+  position: absolute;
+  background-color: #fff;
+  padding: 20px;
+  border: none;
+}
+.slick-arrow {
+  border-radius: 50px;
+}
+/* Dots */
+.slick-dotted .slick-slider {
+  margin-bottom: 30px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  list-style: none;
+  display: block;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.slick-dots li button {
+  border: 0;
+  background: transparent;
+  display: block;
+  height: 20px;
+  width: 20px;
+  outline: none;
+  line-height: 0px;
+  font-size: 0px;
+  color: transparent;
+  padding: 5px;
+  cursor: pointer;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+.slick-dots li button:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "•";
+  width: 20px;
+  height: 20px;
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  text-align: center;
+  color: black;
+  opacity: 0.25;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+  color: black;
+  opacity: 0.75;
+}
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus {
+  outline: none;
+}
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after {
+  content: "";
+  display: table;
+}
+.slick-track:after {
+  clear: both;
+}
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+.slick-slide img {
+  display: block;
+}
+.slick-slide.slick-loading img {
+  display: none;
+}
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
 }

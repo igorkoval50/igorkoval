@@ -23,6 +23,9 @@ html {
   overflow-x: hidden;
   font-size: 10px;
 }
+body button {
+  outline: none;
+}
 body a {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -40,6 +43,7 @@ body a:focus {
   outline: none;
 }
 section#main {
+  height: 2000px;
   margin-top: -13px;
   background-color: #f5f5f5;
 }
@@ -74,11 +78,13 @@ section#main .main-h1 h1 {
   font-size: 3rem;
 }
 section#main .share {
+  margin-left: 18px;
   vertical-align: middle;
   display: inline-block;
   padding-top: 10px;
 }
 section#main .share button {
+  border: none;
   display: -webkit-inline-flex;
   display: -ms-inline-flex;
   display: inline-flex;
@@ -114,6 +120,10 @@ section#main .share button:hover {
   background: #f2ab41;
 }
 section#main .share span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1px 6rem;
   margin-left: 10px;
 }
 section#main .main-container {
@@ -123,19 +133,142 @@ section#main .main-container {
   flex-wrap: wrap;
 }
 section#main .main-container .first-column {
-  width: 300px;
-  background-color: red;
+  width: 30rem;
+}
+section#main .main-container .first-user {
+  border: 1px solid #e8edfa;
+  width: 30rem;
+  height: 35rem;
+  background-color: #fff;
+}
+section#main .main-container .first-user h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-top: 18px;
+  text-align: center;
+}
+section#main .main-container .first-user img {
+  display: block;
+  margin: 0 auto;
+  width: 13rem;
+  height: 13rem;
+}
+section#main .main-container .first-user span {
+  padding-top: 16px;
+  color: #8d8b8b;
+  font-size: 1.8rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+section#main .main-container .first-user a {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+section#main .main-container .first-user a:hover {
+  text-decoration: none;
+  color: #7F7B7B;
+}
+section#main .main-container .data {
+  border: 1px solid #e8edfa;
+  width: 30rem;
+  height: 35rem;
+  background-color: #fff;
+  margin-top: 20px;
+}
+section#main .main-container .data .data-finish {
+  padding-top: 40px;
+}
+section#main .main-container .data h3 {
+  padding-top: 15px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+section#main .main-container .data span {
+  display: block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.6rem;
+  color: #e83e00;
+}
+section#main .main-container .data i {
+  font-size: 2.2rem;
+}
+section#main .main-container .data p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section#main .main-container .first-pay {
+  margin-top: 30px;
+}
+section#main .main-container .first-pay p {
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #333;
+}
+section#main .main-container .first-pay h2 {
+  display: inline-block;
+  color: #5faf00;
+  font-size: 3.6rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: -20px;
+}
+section#main .main-container .first-pay .site-btn-red {
+  border: none;
+}
+section#main .main-container .first-pay .btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 1.5rem 3rem;
+}
+section#main .main-container .first-pay .site-btn-yellow-o {
+  padding: 1.5rem 4.7rem;
+}
+section#main .main-container .first-pay .site-btn-green-o {
+  padding: 1.5rem 2.8rem;
 }
 section#main .main-container .second-column {
   margin-left: 21px;
   width: 620px;
-  background-color: red;
+  background-color: yellow;
 }
 section#main .main-container .third-column {
   margin-left: 21px;
-  height: 250px;
-  width: 300px;
-  background-color: red;
+  width: 30rem;
+}
+section#main .main-container .third-column .poster {
+  width: 30rem;
+  height: 25rem;
+  background-color: #d8d8d8;
+  border: 1px solid #979797;
+  margin-top: 20px;
+}
+section#main .main-container .third-column .pos {
+  margin-top: 0px;
 }
 /*==========  Desktop First Method  ==========*/
 @media (min-width: 0px) and (max-width: 480px) {
@@ -146,6 +279,26 @@ section#main .main-container .third-column {
 @media (min-width: 481px) and (max-width: 767px) {
   html {
     font-size: 7px;
+  }
+  section#nav {
+    height: 300px;
+  }
+  section#nav ul {
+    text-align: center;
+    padding-left: 0;
+  }
+  section#nav ul li {
+    display: block;
+    padding-left: 0px;
+  }
+  section#nav .come {
+    text-align: center;
+  }
+  section#nav .come i {
+    display: none;
+  }
+  section#main .main-inf {
+    margin: 0 auto;
   }
 }
 html[lang="he"] body {
@@ -229,6 +382,18 @@ html[lang="he"] .site-btn-yellow-o .fa,
 html[lang="he"] .site-btn-white-o .fa {
   margin-right: 0;
   margin-left: 15px;
+}
+html[lang="he"] .share {
+  margin-right: -5px;
+}
+html[lang="he"] .share img {
+  margin-left: 5px;
+}
+html[lang="he"] .third-column {
+  margin-right: -10px;
+}
+html[lang="he"] .first-column {
+  margin-left: 10px;
 }
 .site-btn-green {
   display: -webkit-inline-flex;
@@ -435,6 +600,30 @@ html[lang="he"] .site-btn-white-o .fa {
 }
 .site-btn-red-o:hover {
   background: #e83e00;
+  color: #fff;
+}
+.site-btn-yellow-o {
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: inline-flex;
+  padding: 6px 20px 8px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: all 0.1s;
+  background: #fff;
+  border: 2px solid transparent;
+  border-color: #f0a029;
+  color: #f0a029;
+}
+.site-btn-yellow-o:hover {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.site-btn-yellow-o:hover {
+  background: #f0a029;
   color: #fff;
 }
 .flexslider {

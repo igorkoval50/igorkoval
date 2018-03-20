@@ -295,7 +295,7 @@ section#main .main-container .first-pay .site-btn-yellow-o {
   padding: 1.5rem 4.7rem;
 }
 section#main .main-container .first-pay .site-btn-green-o {
-  padding: 1.5rem 2.8rem;
+  padding: 1.5rem 2.5rem;
 }
 section#main .main-container .first-pay .site-btn-red-o {
   padding: 1.5rem 3.1rem;
@@ -682,6 +682,85 @@ section#main .main-container .third-column .pos {
   margin-top: 20px;
 }
 /*==========  Desktop First Method  ==========*/
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+  .first-pay p {
+    text-align: center;
+    display: block;
+  }
+  .first-pay h2 {
+    display: block !important;
+    text-align: center !important;
+    margin-top: -10px !important;
+  }
+  .first-pay .site-btn-red {
+    display: block !important;
+    text-align: center !important;
+    margin: 0px auto !important;
+    margin-top: -10px !important;
+  }
+  .first-pay .btn {
+    display: block;
+  }
+  .first-pay .site-btn-green-o {
+    padding: 1.5rem 2rem !important;
+  }
+  .first-pay .site-btn-red-o {
+    padding: 1.5rem 2.7rem !important;
+  }
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 80%;
+  }
+  section#main .second-column {
+    width: 65% !important;
+    min-width: 450px;
+  }
+  section#main .second-column .more-add {
+    margin-left: 0 !important;
+  }
+  section#main .second-column .more-add p {
+    width: 95% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+    position: relative !important;
+  }
+  section#main .second-column .add-inf {
+    border-top: none !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 40vw !important;
+  }
+  section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1099px) {
   .line {
     width: 100% !important;
@@ -932,6 +1011,105 @@ html[lang="he"] .discuss-write img {
 }
 html[lang="he"] .discuss-write input {
   margin-left: -70px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  html[lang="he"] html {
+    font-size: 8px;
+  }
+  html[lang="he"] .slider p {
+    display: inline-block;
+    margin-right: 25rem;
+  }
+  html[lang="he"] .candidates-inf p {
+    display: inline-block;
+    margin-right: 25rem;
+  }
+  html[lang="he"] .discuss-all span {
+    margin-right: 25rem;
+  }
+  html[lang="he"] .discuss-write input {
+    margin-left: -11rem;
+  }
+  html[lang="he"] .first-pay p {
+    text-align: center;
+    display: block;
+  }
+  html[lang="he"] .first-pay h2 {
+    display: block !important;
+    text-align: center !important;
+    margin-top: -10px !important;
+  }
+  html[lang="he"] .first-pay .site-btn-red {
+    display: block !important;
+    text-align: center !important;
+    margin: 0px auto !important;
+    margin-top: -10px !important;
+  }
+  html[lang="he"] .first-pay .btn {
+    display: block;
+  }
+  html[lang="he"] .first-pay .site-btn-green-o {
+    padding: 1.5rem 2rem !important;
+  }
+  html[lang="he"] .first-pay .site-btn-red-o {
+    padding: 1.5rem 2.7rem !important;
+  }
+  html[lang="he"] .line {
+    width: 100% !important;
+    margin-right: 5px;
+  }
+  html[lang="he"] section#main .main-container {
+    width: 100%;
+  }
+  html[lang="he"] section#main .main-h1 {
+    width: 80%;
+  }
+  html[lang="he"] section#main .second-column {
+    width: 63% !important;
+    min-width: 450px;
+  }
+  html[lang="he"] section#main .second-column .more-add {
+    margin-left: 0 !important;
+  }
+  html[lang="he"] section#main .second-column .more-add p {
+    width: 95% !important;
+  }
+  html[lang="he"] section#main .second-column .discuss-inf {
+    width: 100% !important;
+    position: relative !important;
+  }
+  html[lang="he"] section#main .second-column .add-inf {
+    border-top: none !important;
+  }
+  html[lang="he"] section#main .second-column .discuss-form input {
+    width: 40vw !important;
+  }
+  html[lang="he"] section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  html[lang="he"] section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  html[lang="he"] section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  html[lang="he"] section#main .third-column {
+    display: none;
+  }
+  html[lang="he"] .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  html[lang="he"] .four-column .poster {
+    margin: 10px;
+  }
+}
+@media (min-width: 922px) and (max-width: 991px) {
+  html[lang="he"] .discuss-write input {
+    margin-left: -8rem !important;
+  }
 }
 @media (min-width: 922px) and (max-width: 1099px) {
   html[lang="he"] input {

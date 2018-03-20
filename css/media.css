@@ -1,4 +1,83 @@
 /*==========  Desktop First Method  ==========*/
+@media (min-width: 768px) and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
+  .first-pay p {
+    text-align: center;
+    display: block;
+  }
+  .first-pay h2 {
+    display: block !important;
+    text-align: center !important;
+    margin-top: -10px !important;
+  }
+  .first-pay .site-btn-red {
+    display: block !important;
+    text-align: center !important;
+    margin: 0px auto !important;
+    margin-top: -10px !important;
+  }
+  .first-pay .btn {
+    display: block;
+  }
+  .first-pay .site-btn-green-o {
+    padding: 1.5rem 2rem !important;
+  }
+  .first-pay .site-btn-red-o {
+    padding: 1.5rem 2.7rem !important;
+  }
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 80%;
+  }
+  section#main .second-column {
+    width: 65% !important;
+    min-width: 450px;
+  }
+  section#main .second-column .more-add {
+    margin-left: 0 !important;
+  }
+  section#main .second-column .more-add p {
+    width: 95% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+    position: relative !important;
+  }
+  section#main .second-column .add-inf {
+    border-top: none !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 40vw !important;
+  }
+  section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
 @media (min-width: 992px) and (max-width: 1099px) {
   .line {
     width: 100% !important;

@@ -53,7 +53,7 @@ h2 {
 	background-color: #e4eafa;
 	height: 1px;
 	display: block;
-	width: 104%;
+	width: 100%;
 	margin-top: 15px;
 }
 h3 {
@@ -80,13 +80,13 @@ p {
 
 ////////////SECTION MAIN///////////////
 section#main {
-	height: 2000px;
+	// height: 2000px;
 	margin-top: -13px;
 	background-color: #f5f5f5;
 	.nav {
 		padding-top: 8px;
 		ul {
-			padding: 0;
+			padding: 0px;
 		}
 		ul li {
 			list-style-type: none;
@@ -94,6 +94,9 @@ section#main {
 		}
 		a {
 			padding-left: 10px;
+		}
+		.imp {
+			padding-left: 0;
 		}
 		i {
 			padding-left: 5px;
@@ -227,13 +230,15 @@ section#main {
 				display: block;
 				margin: 0 auto;
 				margin-top: 10px;
-				padding: 1.5rem 3rem;
 			}
 			.site-btn-yellow-o {
 				padding: 1.5rem 4.7rem;
 			}
 			.site-btn-green-o {
 				padding: 1.5rem 2.8rem;
+			}
+			.site-btn-red-o {
+				padding: 1.5rem 3.1rem;
 			}
 		}
 		.second-column {
@@ -311,6 +316,9 @@ section#main {
   			 		font-size: 18px;
   			 		color: #333;
   			 	}
+  			 	.line {
+  			 		width: 104%;
+  			 	}
   			 	span {
   			 		margin-left: -20px;
   			 	}
@@ -376,6 +384,193 @@ section#main {
 				}
   			 }
 		}//candidates
+		.chat {
+			margin-top: 20px;
+			background-color: #fff;
+			h3 {
+				padding-left: 20px;
+				display: inline-block;
+			}
+			span {
+				color: #8d8b8b;
+				font-size: 1.4rem;
+				.regular;
+				padding-left: 10px;
+			}
+			.line {
+				width: 99%;
+			}
+		}
+		.chat-one {
+			width: 6rem;
+			height: 6rem;
+			img {
+				margin-left: 20px;
+			}
+		}
+		.discuss {
+			border: 1px solid #e8edfa;
+			position: relative;
+			margin-top: 10px;
+			height: 490px;
+			background-color: #fff;
+			.discuss-all {
+				padding-left: 20px;
+				padding-top: 10px;
+				p {
+					display: inline-block;
+					font-size: 18px;
+					color: #333333;
+				}
+				span {
+					font-size: 14px;
+					color:#8d8b8b;
+					margin-left: 10px;
+				}
+				.line {
+					margin-top: 2px;
+  			 		background-color: #e4eafa;
+  			 		width: 618px;
+  			 		height: 1px;
+  			 		display: block;
+  			 		margin-left: -20px;
+				}
+			}
+			.discuss-inf {
+				width: 620px;
+				display: inline-block;
+				.line {
+					margin-top: 20px;
+  			 		background-color: #e4eafa;
+  			 		width: 618px;
+  			 		height: 1px;
+  			 		display: block;
+  			 		margin-left: 0px;
+				}
+				.discuss-img {
+					display: inline-block;
+					margin-left: 20px;
+					margin-top: 20px;
+				}
+				.discuss-txt {
+					display: inline-block;
+					margin-left: 15px;
+					position: absolute;
+
+					h3 {
+						display: inline-block;
+						font-size: 16px;
+						.semiBold;
+						color: #333;
+					}
+					span {
+						font-size: 14px;
+						color:#8d8b8b;
+						margin-left: 15px;
+					}
+					p {
+						margin-top: -10px;
+					}
+				}
+			}
+			.more-add {
+				margin-left: 20px;
+				p {
+					width: 400px;
+				}
+			}
+			.discuss-write {
+				position: relative;
+				margin-left: 40px;
+				margin-top: 20px;
+				.line {
+					margin-top: 20px;
+  			 		background-color: #e4eafa;
+  			 		width: 618px;
+  			 		height: 1px;
+  			 		display: block;
+  			 		margin-left: -40px;
+				}
+				.discuss-form {
+					position: absolute;
+					top: 10px;
+					left: 80px;
+					input {
+						outline: none;
+						width: 432px;
+						padding-right: 20px;
+					}
+					button {
+						border: none;
+						height: 40px;
+						top: 0px;
+						right: -30px;
+						position: absolute;
+						background-color: #f6f6f6;
+						i {
+							font-size: 20px;
+							color:#8d8b8b;
+						}
+					}
+				}
+			}
+			.add-inf {
+				margin-top: 15px;
+				height: 102px;
+				border: 1px solid #e8edfa;
+				// margin-top: 20px;
+			}
+			.your-answer {
+				cursor: pointer;
+				position: absolute;
+				right: 10px;
+				a {
+					cursor: pointer;
+					border: 1px solid #e8edfa;
+					padding: 9px 22px;
+					font-size: 14px;
+					color: #8d8b8b;
+					border-radius: 100px;
+ 				    background-color: #f6f7f9;
+ 				    i {
+ 				    	cursor: pointer;
+ 				    	font-size: 24px;
+ 				    }
+				}
+			}
+			.show-more {
+				border: 1px solid #e8edfa;
+				background-color: #fff;
+				height: 50px;
+				text-align: center;
+  				a {
+  					display: block;
+  					padding-top: 13px;
+  					color: #5faf00;
+  					.semiBold;
+  					font-size: 14px;
+  				}
+			}
+			.write-more {
+				padding-left: 20px;
+				margin-top: 25px;
+				height: 149px;
+				background-color: #fff;
+				border: 1px solid #e8edfa;
+				h3 {
+					font-size: 18px;
+					color: #333333;
+					.regular;
+				}
+			}
+			.new {
+					form {
+						margin-top: 5px;
+					}
+					margin-top: 8px;
+					margin-left: 0px;
+				}
+		}//discuss 
 
 		.third-column {
 			margin-left: 21px;
@@ -388,11 +583,21 @@ section#main {
 				margin-top: 20px;
 			}
 			.pos {
-				margin-top: 0px;
+				margin-top: 2px;
 			}
 		}
 	}
 }//section main
+		.four-column {
+			display: none;
+			.poster {
+				width: 30rem;
+				height: 25rem;
+				background-color: #d8d8d8;
+				border: 1px solid #979797;
+				margin-top: 20px;
+			}
+		}
 
 
 

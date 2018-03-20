@@ -54,7 +54,7 @@ h2 {
   background-color: #e4eafa;
   height: 1px;
   display: block;
-  width: 104%;
+  width: 100%;
   margin-top: 15px;
 }
 h3 {
@@ -87,7 +87,6 @@ p {
   line-height: 1.29;
 }
 section#main {
-  height: 2000px;
   margin-top: -13px;
   background-color: #f5f5f5;
 }
@@ -95,7 +94,7 @@ section#main .nav {
   padding-top: 8px;
 }
 section#main .nav ul {
-  padding: 0;
+  padding: 0px;
 }
 section#main .nav ul li {
   list-style-type: none;
@@ -103,6 +102,9 @@ section#main .nav ul li {
 }
 section#main .nav a {
   padding-left: 10px;
+}
+section#main .nav .imp {
+  padding-left: 0;
 }
 section#main .nav i {
   padding-left: 5px;
@@ -288,13 +290,15 @@ section#main .main-container .first-pay .btn {
   display: block;
   margin: 0 auto;
   margin-top: 10px;
-  padding: 1.5rem 3rem;
 }
 section#main .main-container .first-pay .site-btn-yellow-o {
   padding: 1.5rem 4.7rem;
 }
 section#main .main-container .first-pay .site-btn-green-o {
   padding: 1.5rem 2.8rem;
+}
+section#main .main-container .first-pay .site-btn-red-o {
+  padding: 1.5rem 3.1rem;
 }
 section#main .main-container .second-column {
   margin-left: 21px;
@@ -368,6 +372,9 @@ section#main .main-container .candidates .candidates-inf p {
   display: inline-block;
   font-size: 18px;
   color: #333;
+}
+section#main .main-container .candidates .candidates-inf .line {
+  width: 104%;
 }
 section#main .main-container .candidates .candidates-inf span {
   margin-left: -20px;
@@ -457,6 +464,199 @@ section#main .main-container .candidates .checkbox-block input[type=checkbox]:ch
   background-repeat: no-repeat;
   background-position: center;
 }
+section#main .main-container .chat {
+  margin-top: 20px;
+  background-color: #fff;
+}
+section#main .main-container .chat h3 {
+  padding-left: 20px;
+  display: inline-block;
+}
+section#main .main-container .chat span {
+  color: #8d8b8b;
+  font-size: 1.4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 10px;
+}
+section#main .main-container .chat .line {
+  width: 99%;
+}
+section#main .main-container .chat-one {
+  width: 6rem;
+  height: 6rem;
+}
+section#main .main-container .chat-one img {
+  margin-left: 20px;
+}
+section#main .main-container .discuss {
+  border: 1px solid #e8edfa;
+  position: relative;
+  margin-top: 10px;
+  height: 490px;
+  background-color: #fff;
+}
+section#main .main-container .discuss .discuss-all {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+section#main .main-container .discuss .discuss-all p {
+  display: inline-block;
+  font-size: 18px;
+  color: #333333;
+}
+section#main .main-container .discuss .discuss-all span {
+  font-size: 14px;
+  color: #8d8b8b;
+  margin-left: 10px;
+}
+section#main .main-container .discuss .discuss-all .line {
+  margin-top: 2px;
+  background-color: #e4eafa;
+  width: 618px;
+  height: 1px;
+  display: block;
+  margin-left: -20px;
+}
+section#main .main-container .discuss .discuss-inf {
+  width: 620px;
+  display: inline-block;
+}
+section#main .main-container .discuss .discuss-inf .line {
+  margin-top: 20px;
+  background-color: #e4eafa;
+  width: 618px;
+  height: 1px;
+  display: block;
+  margin-left: 0px;
+}
+section#main .main-container .discuss .discuss-inf .discuss-img {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+section#main .main-container .discuss .discuss-inf .discuss-txt {
+  display: inline-block;
+  margin-left: 15px;
+  position: absolute;
+}
+section#main .main-container .discuss .discuss-inf .discuss-txt h3 {
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #333;
+}
+section#main .main-container .discuss .discuss-inf .discuss-txt span {
+  font-size: 14px;
+  color: #8d8b8b;
+  margin-left: 15px;
+}
+section#main .main-container .discuss .discuss-inf .discuss-txt p {
+  margin-top: -10px;
+}
+section#main .main-container .discuss .more-add {
+  margin-left: 20px;
+}
+section#main .main-container .discuss .more-add p {
+  width: 400px;
+}
+section#main .main-container .discuss .discuss-write {
+  position: relative;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+section#main .main-container .discuss .discuss-write .line {
+  margin-top: 20px;
+  background-color: #e4eafa;
+  width: 618px;
+  height: 1px;
+  display: block;
+  margin-left: -40px;
+}
+section#main .main-container .discuss .discuss-write .discuss-form {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+}
+section#main .main-container .discuss .discuss-write .discuss-form input {
+  outline: none;
+  width: 432px;
+  padding-right: 20px;
+}
+section#main .main-container .discuss .discuss-write .discuss-form button {
+  border: none;
+  height: 40px;
+  top: 0px;
+  right: -30px;
+  position: absolute;
+  background-color: #f6f6f6;
+}
+section#main .main-container .discuss .discuss-write .discuss-form button i {
+  font-size: 20px;
+  color: #8d8b8b;
+}
+section#main .main-container .discuss .add-inf {
+  margin-top: 15px;
+  height: 102px;
+  border: 1px solid #e8edfa;
+}
+section#main .main-container .discuss .your-answer {
+  cursor: pointer;
+  position: absolute;
+  right: 10px;
+}
+section#main .main-container .discuss .your-answer a {
+  cursor: pointer;
+  border: 1px solid #e8edfa;
+  padding: 9px 22px;
+  font-size: 14px;
+  color: #8d8b8b;
+  border-radius: 100px;
+  background-color: #f6f7f9;
+}
+section#main .main-container .discuss .your-answer a i {
+  cursor: pointer;
+  font-size: 24px;
+}
+section#main .main-container .discuss .show-more {
+  border: 1px solid #e8edfa;
+  background-color: #fff;
+  height: 50px;
+  text-align: center;
+}
+section#main .main-container .discuss .show-more a {
+  display: block;
+  padding-top: 13px;
+  color: #5faf00;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+}
+section#main .main-container .discuss .write-more {
+  padding-left: 20px;
+  margin-top: 25px;
+  height: 149px;
+  background-color: #fff;
+  border: 1px solid #e8edfa;
+}
+section#main .main-container .discuss .write-more h3 {
+  font-size: 18px;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+section#main .main-container .discuss .new {
+  margin-top: 8px;
+  margin-left: 0px;
+}
+section#main .main-container .discuss .new form {
+  margin-top: 5px;
+}
 section#main .main-container .third-column {
   margin-left: 21px;
   width: 30rem;
@@ -469,37 +669,137 @@ section#main .main-container .third-column .poster {
   margin-top: 20px;
 }
 section#main .main-container .third-column .pos {
-  margin-top: 0px;
+  margin-top: 2px;
+}
+.four-column {
+  display: none;
+}
+.four-column .poster {
+  width: 30rem;
+  height: 25rem;
+  background-color: #d8d8d8;
+  border: 1px solid #979797;
+  margin-top: 20px;
 }
 /*==========  Desktop First Method  ==========*/
-@media (min-width: 0px) and (max-width: 480px) {
-  html {
-    font-size: 7px;
+@media (min-width: 992px) and (max-width: 1099px) {
+  .line {
+    width: 100% !important;
   }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  html {
-    font-size: 7px;
+  section#main .main-container {
+    width: 100%;
   }
-  section#nav {
-    height: 300px;
+  section#main .main-h1 {
+    width: 83%;
   }
-  section#nav ul {
-    text-align: center;
-    padding-left: 0;
+  section#main .second-column {
+    width: 65% !important;
   }
-  section#nav ul li {
-    display: block;
-    padding-left: 0px;
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
   }
-  section#nav .come {
-    text-align: center;
+  section#main .second-column .discuss-form input {
+    width: 40vw !important;
   }
-  section#nav .come i {
+  section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
     display: none;
   }
-  section#main .main-inf {
-    margin: 0 auto;
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 86%;
+  }
+  section#main .second-column {
+    width: 70% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 40vw !important;
+  }
+  section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 87%;
+  }
+  section#main .second-column {
+    width: 72% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 50vw !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
   }
 }
 html[lang="he"] body {
@@ -603,7 +903,82 @@ html[lang="he"] .refregerator {
   padding-right: 20px;
 }
 html[lang="he"] .line {
-  margin-right: -20px;
+  margin-right: -10px;
+}
+html[lang="he"] .slider p {
+  margin-right: 35rem;
+}
+html[lang="he"] .candidates-inf p {
+  margin-right: 35rem;
+}
+html[lang="he"] .discuss-all .speak {
+  margin-right: 20px;
+}
+html[lang="he"] .discuss-all span {
+  margin-top: -3rem;
+  margin-right: 35rem;
+}
+html[lang="he"] .discuss-all .line {
+  margin-right: 0rem;
+}
+html[lang="he"] .discuss-inf img {
+  margin-right: 20px;
+}
+html[lang="he"] .write-more h3 {
+  margin-right: 20px;
+}
+html[lang="he"] .discuss-write img {
+  margin-right: 40px;
+}
+html[lang="he"] .discuss-write input {
+  margin-left: -70px;
+}
+@media (min-width: 922px) and (max-width: 1099px) {
+  html[lang="he"] input {
+    margin-left: -15px !important;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+  html[lang="he"] .main-container {
+    width: 102% !important;
+  }
+  html[lang="he"] .discuss-write img {
+    margin-right: 40px;
+  }
+  html[lang="he"] .discuss-write input {
+    margin-left: 70px !important;
+  }
+  html[lang="he"] .discuss-all span {
+    margin-top: -3rem;
+    margin-right: 50rem;
+  }
+  html[lang="he"] .candidates-inf p {
+    margin-right: 50rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1350px) {
+  html[lang="he"] .slider p {
+    margin-right: 55rem;
+  }
+  html[lang="he"] .candidates-inf p {
+    margin-right: 55rem;
+  }
+  html[lang="he"] .discuss-all .speak {
+    margin-right: 20px;
+  }
+  html[lang="he"] .discuss-all span {
+    margin-top: -3rem;
+    margin-right: 55rem;
+  }
+  html[lang="he"] .discuss-all .line {
+    margin-right: 0rem;
+  }
+  html[lang="he"] .discuss-write img {
+    margin-right: 40px;
+  }
+  html[lang="he"] .discuss-write input {
+    margin-left: -60px;
+  }
 }
 .site-btn-green {
   display: -webkit-inline-flex;

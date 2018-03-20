@@ -1,0 +1,121 @@
+/*==========  Desktop First Method  ==========*/
+@media (min-width: 992px) and (max-width: 1099px) {
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 83%;
+  }
+  section#main .second-column {
+    width: 65% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 40vw !important;
+  }
+  section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1199px) {
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 86%;
+  }
+  section#main .second-column {
+    width: 70% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 40vw !important;
+  }
+  section#main .second-column .candidates-inf .line {
+    width: 104% !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1350px) {
+  .line {
+    width: 100% !important;
+  }
+  section#main .main-container {
+    width: 100%;
+  }
+  section#main .main-h1 {
+    width: 87%;
+  }
+  section#main .second-column {
+    width: 72% !important;
+  }
+  section#main .second-column .discuss-inf {
+    width: 100% !important;
+  }
+  section#main .second-column .discuss-form input {
+    width: 50vw !important;
+  }
+  section#main .second-column .discuss-all .line {
+    width: 102% !important;
+  }
+  section#main .second-column .discuss-write .line {
+    width: 105% !important;
+  }
+  section#main .third-column {
+    display: none;
+  }
+  .four-column {
+    justify-content: center;
+    margin-top: 350px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .four-column .poster {
+    margin: 10px;
+  }
+}
